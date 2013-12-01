@@ -1,0 +1,8 @@
+import random
+words = ['chicken', 'dog','cat', 'mouse', 'frog', 'fox']
+
+def pick_a_word():
+	word_position = random.randint(0, len(words))
+	return words[word_position]
+
+print (pick_a_word())
